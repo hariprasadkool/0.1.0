@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="542px" height="352px" viewBox="0 0 542 352" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41 (35326) - http://www.bohemiancoding.com/sketch -->
+    <title>all-icons-sectors</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="12.9642857" y="15.1375" width="95.0714286" height="36.7625" rx="1"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="95.0714286" height="36.7625" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="all-icons-sectors" fill="#F9F9F9">
+            <g id="BG">
+                <rect id="Rectangle-path" x="0.5" y="0.5" width="541" height="351"></rect>
+            </g>
+        </g>
+        <g id="Calc-Icon" transform="translate(271.000000, 176.000000) rotate(-360.000000) translate(-271.000000, -176.000000) translate(210.500000, 89.500000)">
+            <rect id="Rectangle-3" fill="#053C59" x="0" y="0" width="121" height="173" rx="2"></rect>
+            <path d="M12.9642857,62.7125 L12.9642857,80.0125 L30.25,80.0125 L30.25,62.7125 L12.9642857,62.7125 Z M38.8928571,62.7125 L38.8928571,80.0125 L56.1785714,80.0125 L56.1785714,62.7125 L38.8928571,62.7125 Z M64.8214286,62.7125 L64.8214286,80.0125 L82.1071429,80.0125 L82.1071429,62.7125 L64.8214286,62.7125 Z M90.75,62.7125 L90.75,80.0125 L108.035714,80.0125 L108.035714,62.7125 L90.75,62.7125 Z M12.9642857,88.6625 L12.9642857,105.9625 L30.25,105.9625 L30.25,88.6625 L12.9642857,88.6625 Z M38.8928571,88.6625 L38.8928571,105.9625 L56.1785714,105.9625 L56.1785714,88.6625 L38.8928571,88.6625 Z M64.8214286,88.6625 L64.8214286,105.9625 L82.1071429,105.9625 L82.1071429,88.6625 L64.8214286,88.6625 Z M90.75,88.6625 L90.75,105.9625 L108.035714,105.9625 L108.035714,88.6625 L90.75,88.6625 Z M12.9642857,114.6125 L12.9642857,131.9125 L30.25,131.9125 L30.25,114.6125 L12.9642857,114.6125 Z M38.8928571,114.6125 L38.8928571,131.9125 L56.1785714,131.9125 L56.1785714,114.6125 L38.8928571,114.6125 Z M64.8214286,114.6125 L64.8214286,131.9125 L82.1071429,131.9125 L82.1071429,114.6125 L64.8214286,114.6125 Z M90.75,114.6125 L90.75,131.9125 L108.035714,131.9125 L108.035714,114.6125 L90.75,114.6125 Z M12.9642857,140.5625 L12.9642857,157.8625 L56.1785714,157.8625 L56.1785714,140.5625 L12.9642857,140.5625 Z" id="Combined-Shape" fill="#FFFFFF"></path>
+            <use id="Rectangle-3" stroke="#FFFFFF" mask="url(#mask-2)" stroke-width="2" fill="#FFFFFF" xlink:href="#path-1"></use>
+        </g>
+    </g>
+</svg>
