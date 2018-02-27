@@ -67,7 +67,9 @@
     "gulp-sass": "^3.1.0",
     "gulp-uglify": "^3.0.0",
     "gulp-useref": "^3.1.4",
-    "run-sequence": "^2.2.1"
+    "run-sequence": "^2.2.1",
+    "webpack": "^4.0.1",
+    "webpack-dev-server": "^3.0.0"
   },
   "directories": {},
   "dist": {
