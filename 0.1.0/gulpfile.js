@@ -20,14 +20,14 @@ gulp.task('hello-world', function() {
 // #2 Preprocessing with Gulp     
 gulp.task('sass', function(){
     return gulp.src('src/scss/styles.scss')
-        .pipe(sass()) // Converts Sass to CSS with gulp-sass
+        .pipe(sass().on('error',sass.logError)) // Converts Sass to CSS with gulp-sass
         .pipe(gulp.dest('src/css'))
 });
 
 // #3 Globbing in Node
 gulp.task('sass-global', function() {
     return gulp.src('src/scss/**/*.scss') // Gets all files ending with .scss in src/scss and children dirs
-      .pipe(sass())
+      .pipe(sass().on('error',sass.logError))
       .pipe(gulp.dest('src/css'))
 });
 
