@@ -158,7 +158,6 @@ runSequence(['sass','browserSync', 'watch'],
 
 
 // Tasks that are actually useful.
-// npm shrinkwrap
 // concat
 // jshint
 // sourcemaps (gulp-sourcemaps)
