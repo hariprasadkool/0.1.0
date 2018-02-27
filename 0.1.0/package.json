@@ -1,0 +1,73 @@
+{
+  "_args": [
+    [
+      "0.1.0",
+      "/home/hariprasadkool/Videos"
+    ]
+  ],
+  "_from": "0.1.0@latest",
+  "_id": "0.1.0@1.0.0",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/0.1.0",
+  "_nodeVersion": "6.2.1",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/0.1.0-1.0.0.tgz_1483971354364_0.00427844887599349"
+  },
+  "_npmUser": {
+    "email": "hariprasadkool@gmail.com",
+    "name": "hariprasadkool"
+  },
+  "_npmVersion": "3.9.3",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "0.1.0",
+    "raw": "0.1.0",
+    "rawSpec": "",
+    "scope": null,
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/0.1.0/-/0.1.0-1.0.0.tgz",
+  "_shasum": "11cdbe38337a717be3a6280d0fe2553fd683f088",
+  "_shrinkwrap": null,
+  "_spec": "0.1.0",
+  "_where": "/home/hariprasadkool/Videos",
+  "author": {
+    "name": "hariprasadkool"
+  },
+  "dependencies": {},
+  "description": "a test cal app",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "11cdbe38337a717be3a6280d0fe2553fd683f088",
+    "tarball": "https://registry.npmjs.org/0.1.0/-/0.1.0-1.0.0.tgz"
+  },
+  "keywords": [
+    "add",
+    "calculator",
+    "divide",
+    "multiply",
+    "subtract"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "hariprasadkool",
+      "email": "hariprasadkool@gmail.com"
+    }
+  ],
+  "name": "0.1.0",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.0"
+}
