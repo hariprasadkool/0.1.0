@@ -40,11 +40,26 @@
   "author": {
     "name": "hariprasadkool"
   },
-  "dependencies": {},
+  "dependencies": {
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-express": "^1.4.1"
+  },
   "description": "a test cal app",
   "devDependencies": {
+    "autoprefixer": "^8.0.0",
     "browser-sync": "^2.23.6",
     "del": "^3.0.0",
+    "grunt": "^1.0.2",
+    "grunt-contrib-clean": "^1.1.0",
+    "grunt-contrib-compress": "^1.4.3",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-cssmin": "^2.2.1",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-uglify": "^3.3.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-postcss": "^0.9.0",
     "gulp": "^3.9.1",
     "gulp-cache": "^1.0.2",
     "gulp-if": "^2.0.2",
