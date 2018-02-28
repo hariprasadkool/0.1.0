@@ -51,6 +51,7 @@
     "browser-sync": "^2.23.6",
     "css-loader": "^0.28.10",
     "del": "^3.0.0",
+    "file-loader": "^1.1.10",
     "grunt": "^1.0.2",
     "grunt-contrib-clean": "^1.1.0",
     "grunt-contrib-compress": "^1.4.3",
