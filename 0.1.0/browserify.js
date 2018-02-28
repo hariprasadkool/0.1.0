@@ -38,3 +38,5 @@ Browserify.bundle(function (err, buf) {
 
 // Reference :-
 // https://writingjavascript.org/posts/introduction-to-browserify
+
+// Thanks to commonJS we can write easier syntax , then writing cucumber like syntax using systemJS and AlmondJS(AMD)
