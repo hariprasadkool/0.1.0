@@ -6,7 +6,10 @@ module.exports = {
     filename: 'bundle.js',
     path: path.resolve(__dirname, 'dist')
   },
+  // webpack offers source-map which maps your compiled code back to your original source code
   devtool: 'inline-source-map',
+  // we can use watch or webpack development server each time any changes made to our files
+  // webpack development server starts the entry point what ever that is there in dist folder
   devServer: {
     contentBase: './dist'
   },
