@@ -40,19 +40,23 @@
   "author": {
     "name": "hariprasadkool"
   },
-  // dependencies = We can use in for development & can use it for the production. 
   "dependencies": {
+    "dependencies": "We can use in for development & can use it for the production.",
     "browserify": "^16.1.0",
     "grunt-contrib-watch": "^1.0.0",
     "grunt-express": "^1.4.1"
   },
   "description": "a test cal app",
-  // devDependencies = It is only gonna used in for development. we are not using it for the production. 
-  "devDependencies": {                    
+  "devDependencies": {
     "autoprefixer": "^8.0.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.3",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-es2015": "^6.24.1",
     "browser-sync": "^2.23.6",
     "css-loader": "^0.28.10",
     "del": "^3.0.0",
+    "devDependencies": "It is only gonna used in for development. we are not using it for the production.",
     "file-loader": "^1.1.10",
     "grunt": "^1.0.2",
     "grunt-contrib-clean": "^1.1.0",
@@ -108,6 +112,7 @@
   "readme": "ERROR: No README data found!",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/index.html",
     "webpack": "webpack",
     "webpack-watch": "webpack --watch",
     "webpack-dev-start": "webpack-dev-server --open",
