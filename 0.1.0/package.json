@@ -70,6 +70,8 @@
     "gulp-sass": "^3.1.0",
     "gulp-uglify": "^3.0.0",
     "gulp-useref": "^3.1.4",
+    "jshint": "^2.9.5",
+    "jshint-loader": "^0.8.4",
     "run-sequence": "^2.2.1",
     "style-loader": "^0.20.2",
     "webpack": "^4.0.1",

@@ -18,14 +18,14 @@ module.exports = {
       {
            test: /\.css$/,
            use: [
-             'style-loader',
+             'style-loader',                          // Add the style loader
              'css-loader'
             ]
       },
       {
         test: /\.(png|svg|jpg|gif)$/,
         use: [
-          'file-loader'
+          'file-loader'                               //  Add the file loader
         ]
       },
       {
@@ -33,6 +33,11 @@ module.exports = {
         use: [
           'file-loader'
         ]
+      },
+      {
+        test: /\.js$/,                                // Run the loader on all .js files
+        exclude: /node_modules/,                      // ignore all files in the node_modules folder
+        use: 'jshint-loader'                          // Add the JSHint loader
       }
     ]
   }
