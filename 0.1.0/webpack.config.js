@@ -1,15 +1,9 @@
-var webpack = require('webpack');
+const path = require('path');
 
-var config = {
-  context: __dirname + './src/js', // `__dirname` is root of project and `src` is source
-  entry: {
-    app: './src/js/index.js',
-  },
+module.exports = {
+  entry: './src/js/index.js',
   output: {
-    path: __dirname + '/dist', // `dist` is the destination
-    publicPath: "/assets/",
     filename: 'bundle.js',
-  },
+    path: path.resolve(__dirname, 'dist')
+  }
 };
-
-module.exports = config;
