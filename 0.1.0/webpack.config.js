@@ -22,7 +22,7 @@ module.exports = {
               loader: 'style-loader'                   //  Add the style loader
             },
             {
-              loader: 'css-loader',
+              loader: 'css-loader',                   // We just imported a Css file from our JavaScript, as a module.
               options: {
                 modules: true,
                 camelCase: true,
@@ -30,6 +30,14 @@ module.exports = {
               }
             }
           ]
+      },
+      {
+        test: /\.scss$/,
+        use: [
+          'style-loader',
+          'css-loader',
+          'sass-loader'                               // We just imported a Sass file from our JavaScript, as a module.
+        ]
       },
       {
         test: /\.(png|svg|jpg|gif)$/,

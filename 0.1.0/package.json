@@ -40,13 +40,15 @@
   "author": {
     "name": "hariprasadkool"
   },
+  // dependencies = We can use in for development & can use it for the production. 
   "dependencies": {
     "browserify": "^16.1.0",
     "grunt-contrib-watch": "^1.0.0",
     "grunt-express": "^1.4.1"
   },
   "description": "a test cal app",
-  "devDependencies": {
+  // devDependencies = It is only gonna used in for development. we are not using it for the production. 
+  "devDependencies": {                    
     "autoprefixer": "^8.0.0",
     "browser-sync": "^2.23.6",
     "css-loader": "^0.28.10",
