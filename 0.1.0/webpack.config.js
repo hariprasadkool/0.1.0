@@ -18,9 +18,18 @@ module.exports = {
       {
            test: /\.css$/,
            use: [
-             'style-loader',                          // Add the style loader
-             'css-loader'
-            ]
+            {
+              loader: 'style-loader'                   //  Add the style loader
+            },
+            {
+              loader: 'css-loader',
+              options: {
+                modules: true,
+                camelCase: true,
+                sourceMap: true
+              }
+            }
+          ]
       },
       {
         test: /\.(png|svg|jpg|gif)$/,
