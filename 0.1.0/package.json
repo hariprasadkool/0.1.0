@@ -72,6 +72,7 @@
     "gulp-useref": "^3.1.4",
     "jshint": "^2.9.5",
     "jshint-loader": "^0.8.4",
+    "json-loader": "^0.5.7",
     "run-sequence": "^2.2.1",
     "style-loader": "^0.20.2",
     "webpack": "^4.0.1",
@@ -105,7 +106,9 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "webpack": "webpack",
     "webpack-watch": "webpack --watch",
-    "webpack-dev-start": "webpack-dev-server --open"
+    "webpack-dev-start": "webpack-dev-server --open",
+    "webpack-dev-mode": "webpack --mode development",
+    "webpack-prod-mode": "webpack --mode production"
   },
   "version": "1.0.0"
 }

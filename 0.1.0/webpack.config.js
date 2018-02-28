@@ -38,6 +38,10 @@ module.exports = {
         test: /\.js$/,                                // Run the loader on all .js files
         exclude: /node_modules/,                      // ignore all files in the node_modules folder
         use: 'jshint-loader'                          // Add the JSHint loader
+      },
+      {
+        test: /\.json$/,
+        use: "json-loader"                         //JSON loader
       }
     ]
   }
