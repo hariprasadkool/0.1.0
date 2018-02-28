@@ -112,9 +112,10 @@
   "readme": "ERROR: No README data found!",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node ./src/index.html",
+    "start": "node  src/index.html",
     "webpack": "webpack",
     "webpack-watch": "webpack --watch",
+    "webpack-input-output": "webpack  src/js/index.js   dist/bundle.js",
     "webpack-dev-start": "webpack-dev-server --open",
     "webpack-dev-mode": "webpack --mode development",
     "webpack-prod-mode": "webpack --mode production"
