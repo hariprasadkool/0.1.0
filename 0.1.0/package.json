@@ -101,7 +101,9 @@
   "readme": "ERROR: No README data found!",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "webpack": "webpack"
+    "webpack": "webpack",
+    "webpack-watch": "webpack --watch",
+    "webpack-dev-start": "webpack-dev-server --open"
   },
   "version": "1.0.0"
 }
