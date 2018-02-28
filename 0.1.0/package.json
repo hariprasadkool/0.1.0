@@ -49,6 +49,7 @@
   "devDependencies": {
     "autoprefixer": "^8.0.0",
     "browser-sync": "^2.23.6",
+    "css-loader": "^0.28.10",
     "del": "^3.0.0",
     "grunt": "^1.0.2",
     "grunt-contrib-clean": "^1.1.0",
@@ -69,6 +70,7 @@
     "gulp-uglify": "^3.0.0",
     "gulp-useref": "^3.1.4",
     "run-sequence": "^2.2.1",
+    "style-loader": "^0.20.2",
     "webpack": "^4.0.1",
     "webpack-cli": "^2.0.9",
     "webpack-dev-server": "^3.0.0"
