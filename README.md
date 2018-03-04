@@ -13,7 +13,9 @@ Get started with your own calculator to play in your web browser .
 
 npm run start 
 
-https:localhost:
+then run in the browser to test the calculator app
+
+https:localhost:8000
 
 
 ## Maintainers
