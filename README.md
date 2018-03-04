@@ -11,6 +11,11 @@ Get started with your own calculator to play in your web browser .
 
 
 
+npm run start 
+
+https:localhost:
+
+
 ## Maintainers
 
 - [hariprasadkool](https://github.com/hariprasadkool)
